@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Segmentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Customer Segmentation Predictor</h1>
+        <p class="subtitle">Powered by Machine Learning | Built with Flask</p>
+
+        <form method="POST" class="form">
+            <div class="form-group">
+                <label>Recency (days since last purchase):</label>
+                <input type="number" name="recency" min="0" required>
+            </div>
+            <div class="form-group">
+                <label>Frequency (total transactions):</label>
+                <input type="number" name="frequency" step="0.1" min="0" required>
+            </div>
+            <div class="form-group">
+                <label>Monetary (total spent):</label>
+                <input type="number" name="monetary" step="0.1" min="0" required>
+            </div>
+
+            <button type="submit">Predict Segment</button>
+        </form>
+
+        {% if segment %}
+        <div class="result-card">
+            <h2>🎯 Result:</h2>
+            <p><strong>{{ segment }}</strong></p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
