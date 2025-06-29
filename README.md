@@ -11,6 +11,7 @@ The goal of this project is to help e-commerce or retail businesses:
 
 ### **Dataset**
 Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/352/online+retail)
+
 Name: Online Retail Dataset
 Attributes:
 - InvoiceNo, StockCode, Description, Quantity
