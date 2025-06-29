@@ -58,8 +58,23 @@ Input Features: Scaled Recency, Frequency (log), Monetary (log)
 - Flask
 - Matplotlib, Seaborn (for visualization in EDA phase)
 
+### **How to use**
+1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/customer-segmentation-app.git
 
+2. Install dependencies
+pip install -r requirements.txt
 
+3. Run the Flask app
+python app.py
 
+### **Future Improvements**
+- Integrate with a live database or dashboard
+- Schedule batch segmentation monthly
+- Add user authentication for multi-user access
+- Deploy to the cloud (e.g., Streamlit Cloud, Heroku)
+
+### **Author**
+Samuel Chinson / ch1ns0n - Aspiring Machine Learning Engineer
 
 
