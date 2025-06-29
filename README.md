@@ -61,7 +61,7 @@ Input Features: Scaled Recency, Frequency (log), Monetary (log)
 ### **How to use**
 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/customer-segmentation-app.git
+git clone https://github.com/ch1ns0n/customer-segmentation-app.git
 ```
 
 2. Install dependencies
