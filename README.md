@@ -60,13 +60,19 @@ Input Features: Scaled Recency, Frequency (log), Monetary (log)
 
 ### **How to use**
 1. Clone the repo
+```bash
 git clone https://github.com/YOUR_USERNAME/customer-segmentation-app.git
+```
 
 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 3. Run the Flask app
+```bash
 python app.py
+```
 
 ### **Future Improvements**
 - Integrate with a live database or dashboard
